@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Link} from 'react-scroll'
+import {FaBars, FaTimes} from 'react-icons/fa'
 function Navbar() {
+  const [nav, setNav] = useState(false);
+
   const links = [
     {
       id:1,
@@ -24,11 +27,11 @@ function Navbar() {
     }
   ]
   return (
-    <div className='flex justify-between w-full items-center h-20 px-4 text-white bg-black fixed'>
+    <div className='flex justify-between w-full items-center h-20 px-4 text-white bg-black'>
       <div>
-        <h1 className='text-4xl sm:text-5xl ml-2 mt-3 font-signature'>Sanjay Choudhary</h1>
+        <h1 className='text-4xl sm:text-5xl ml-2 mt-4 font-signature'>Sanjay Choudhary</h1>
       </div>
-      <ul className='flex'>
+      <ul className='md:flex hidden'>
         {links.map(({id,link}) => (
             <li 
             key={id}
@@ -37,6 +40,21 @@ function Navbar() {
               </li>
         ))}
       </ul>
+      <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-4 z-10 text-grey-500 md:hidden '>
+      {nav ? <FaTimes size={30}/> : <FaBars size={30}/>}
+      </div>
+      {nav && (
+        <ul className='flex flex-col justify-center items-center absolute top-0
+        left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
+         {links.map(({id,link}) => (
+             <li 
+             key={id}
+              className='px-4 py-4 cursor-pointer capitalize text-4xl'>
+              <Link to={link} smooth duration={500}>{link}</Link> 
+               </li>
+         ))}
+       </ul>
+      )}
     </div>
   )
 }
