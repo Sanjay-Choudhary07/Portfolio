@@ -39,13 +39,13 @@ function SocialLinks() {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/Resume.pdf",
+            href: "https://drive.google.com/file/d/1nCLFMOhdRsOQOx5suzwPqmzuq3nUobe1/view?usp=drive_link",
             style: "rounded-br-md",
             download: true
         },
     ]
     return (
-        <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+        <div className='hidden lg:flex flex-col top-[43%] left-0 fixed'>
             <ul>
                 {links.map(({ id, child, href, style, download }) => (
 

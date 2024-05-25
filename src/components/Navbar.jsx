@@ -19,11 +19,11 @@ function Navbar() {
     },
     {
       id:4,
-      link:'projects'
+      link:'Projects'
     },
     {
       id:5,
-      link:'contact'
+      link:'Contact'
     }
   ]
   return (

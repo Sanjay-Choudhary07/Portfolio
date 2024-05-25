@@ -12,7 +12,7 @@ function Home() {
             I'm a Web Developer
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            As a web developer, I am devoted to Transforming visions into reality
+            As a web developer, I am devoted to transforming visions into reality
             with elegant front-end development and seamless back-end integration.
           </p>
           <div>
