@@ -2,6 +2,7 @@ import React from 'react'
 import profileImage from '../assets/Sanjay.png'
 import { FaArrowRight } from "react-icons/fa6";
 import {Link} from 'react-scroll';
+const hoverStyle = 'hover:bg-pink-300 transition duration-300 ease-in-out';
 function Home() {
   return (
     <div name="home" className='h-screen w-full bg-black text-white bg-gradient-to-b from-black via-black to-gray-800'>
@@ -20,8 +21,8 @@ function Home() {
               to="Portfolio"
               smooth
               duration={500}
-              className='text-white group w-fit px-6 py-3 my-2 flex items-center
-             rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 '
+              className={`text-white group w-fit px-6 py-3 my-2 flex items-center
+             rounded-md ${hoverStyle} bg-gradient-to-r from-cyan-500 to-blue-500`}
           //  <button className='text-white group w-fit px-6 py-3 my-2 flex items-center
           //    rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 '>
           >
