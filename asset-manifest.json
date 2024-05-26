@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.1fb6e6a2.css",
+    "main.js": "/Portfolio/static/js/main.777a95df.js",
+    "static/media/Sanjay.png": "/Portfolio/static/media/Sanjay.5ea950b0769214820bbd.png",
+    "static/media/tmdb.jpeg": "/Portfolio/static/media/tmdb.1f0c54fdf1437725eaa4.jpeg",
+    "static/media/nytimes.jpeg": "/Portfolio/static/media/nytimes.46bb4933f65f6c116fdb.jpeg",
+    "static/media/twitter.jpeg": "/Portfolio/static/media/twitter.1672e6d253a970bf88de.jpeg",
+    "static/media/typescript.png": "/Portfolio/static/media/typescript.659e4b9351cf1baa6930.png",
+    "static/media/weatherApp.jpg": "/Portfolio/static/media/weatherApp.3c55c4ee5032de21a6c5.jpg",
+    "static/media/c++.png": "/Portfolio/static/media/c++.2afdd527e0e45638a1dc.png",
+    "static/media/sql.png": "/Portfolio/static/media/sql.ec275e3fc7a2bd7434fa.png",
+    "static/media/git.png": "/Portfolio/static/media/git.fe3389fe897eb0a69d45.png",
+    "index.html": "/Portfolio/index.html",
+    "main.1fb6e6a2.css.map": "/Portfolio/static/css/main.1fb6e6a2.css.map",
+    "main.777a95df.js.map": "/Portfolio/static/js/main.777a95df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fb6e6a2.css",
+    "static/js/main.777a95df.js"
+  ]
+}
