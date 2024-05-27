@@ -8,3 +8,11 @@
         font-family: "Raleway", sans-serif;
     }
 }
+@layer utilities {
+    .dark .bg-white {
+      background-color:  #1a202c;
+    }
+    .dark .text-black {
+      color: #f7fafc;
+    }
+  }

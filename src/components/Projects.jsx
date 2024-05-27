@@ -3,7 +3,6 @@ import weatherApp from "../assets/weatherApp.jpg"
 import twitter from "../assets/twitter.jpeg"
 import tmdb from "../assets/tmdb.jpeg"
 
-
 const Portfolio =[
   {
     id:1,
